@@ -1,0 +1,87 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(./Images/BG\ stuff.png);
+    background-repeat: no-repeat;
+
+}
+
+/* Navbar */
+
+.n1 {
+    margin-left: 350px;
+}
+
+.nav-item a {
+    font-family: 'Raleway';
+    font-size: small;
+    font-weight: bolder;
+}
+
+
+.playfair {
+    font-family: 'Playfair Display';
+    font-weight: 900;
+}
+
+/* Hover Buttons */
+
+.s1,.s2,.nav-link,.card,.s3-img {
+    transition: 1s;
+}
+
+.s1:hover,.s2:hover,.nav-link:hover,.card:hover,.s3-img:hover {
+    transform: scale(1.1);
+}
+
+/* Section 1 */
+
+
+@media screen and (max-width: 991px) {
+    .s1-content {
+        background-image: url(photo\ hero.png);
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: 2px;
+    }
+}
+
+.s2-content {
+    background-image: url(./Images/VIDEO\ \(image\).png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: center;
+}
+
+
+
+/* Section 4 */
+
+.s4 {
+    margin-top: 250px;
+}
+
+.s4 h3 {
+    margin-top: 130px;
+}
+
+.s4-content1 {
+    background-image: url(./Images/Frankie.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.s4-content2 {
+    background-image: url(./Images/Camile.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.s4-content3 {
+    background-image: url(./Images/Elayne.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
